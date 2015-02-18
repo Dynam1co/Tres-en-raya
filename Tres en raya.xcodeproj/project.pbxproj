@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		322DEAFE1A48550300F3AE79 /* PrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322DEAFD1A48550300F3AE79 /* PrincipalViewController.swift */; };
+		328C0A5E1A4863B400018483 /* PartidaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328C0A5D1A4863B400018483 /* PartidaViewController.swift */; };
+		328C0A601A4867F100018483 /* Jugador.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328C0A5F1A4867F100018483 /* Jugador.swift */; };
 		32D6DDE01A3F806200A4A1FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D6DDDF1A3F806200A4A1FA /* AppDelegate.swift */; };
 		32D6DDE21A3F806200A4A1FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D6DDE11A3F806200A4A1FA /* ViewController.swift */; };
 		32D6DDE51A3F806200A4A1FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D6DDE31A3F806200A4A1FA /* Main.storyboard */; };
 		32D6DDE71A3F806200A4A1FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D6DDE61A3F806200A4A1FA /* Images.xcassets */; };
 		32D6DDEA1A3F806200A4A1FA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32D6DDE81A3F806200A4A1FA /* LaunchScreen.xib */; };
 		32D6DDF61A3F806200A4A1FA /* Tres_en_rayaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D6DDF51A3F806200A4A1FA /* Tres_en_rayaTests.swift */; };
+		32D6DE001A3F819000A4A1FA /* JennaSue.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32D6DDFF1A3F819000A4A1FA /* JennaSue.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		322DEAFD1A48550300F3AE79 /* PrincipalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrincipalViewController.swift; sourceTree = "<group>"; };
+		328C0A5D1A4863B400018483 /* PartidaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartidaViewController.swift; sourceTree = "<group>"; };
+		328C0A5F1A4867F100018483 /* Jugador.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jugador.swift; sourceTree = "<group>"; };
 		32D6DDDA1A3F806200A4A1FA /* Tres en raya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tres en raya.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D6DDDE1A3F806200A4A1FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32D6DDDF1A3F806200A4A1FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +43,7 @@
 		32D6DDEF1A3F806200A4A1FA /* Tres en rayaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tres en rayaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D6DDF41A3F806200A4A1FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32D6DDF51A3F806200A4A1FA /* Tres_en_rayaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tres_en_rayaTests.swift; sourceTree = "<group>"; };
+		32D6DDFF1A3F819000A4A1FA /* JennaSue.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = JennaSue.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,7 @@
 		32D6DDD11A3F806200A4A1FA = {
 			isa = PBXGroup;
 			children = (
+				32D6DDFF1A3F819000A4A1FA /* JennaSue.ttf */,
 				32D6DDDC1A3F806200A4A1FA /* Tres en raya */,
 				32D6DDF21A3F806200A4A1FA /* Tres en rayaTests */,
 				32D6DDDB1A3F806200A4A1FA /* Products */,
@@ -83,6 +92,9 @@
 				32D6DDE61A3F806200A4A1FA /* Images.xcassets */,
 				32D6DDE81A3F806200A4A1FA /* LaunchScreen.xib */,
 				32D6DDDD1A3F806200A4A1FA /* Supporting Files */,
+				322DEAFD1A48550300F3AE79 /* PrincipalViewController.swift */,
+				328C0A5D1A4863B400018483 /* PartidaViewController.swift */,
+				328C0A5F1A4867F100018483 /* Jugador.swift */,
 			);
 			path = "Tres en raya";
 			sourceTree = "<group>";
@@ -193,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32D6DDE51A3F806200A4A1FA /* Main.storyboard in Resources */,
+				32D6DE001A3F819000A4A1FA /* JennaSue.ttf in Resources */,
 				32D6DDEA1A3F806200A4A1FA /* LaunchScreen.xib in Resources */,
 				32D6DDE71A3F806200A4A1FA /* Images.xcassets in Resources */,
 			);
@@ -212,8 +225,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				322DEAFE1A48550300F3AE79 /* PrincipalViewController.swift in Sources */,
 				32D6DDE21A3F806200A4A1FA /* ViewController.swift in Sources */,
+				328C0A5E1A4863B400018483 /* PartidaViewController.swift in Sources */,
 				32D6DDE01A3F806200A4A1FA /* AppDelegate.swift in Sources */,
+				328C0A601A4867F100018483 /* Jugador.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +421,7 @@
 				32D6DDFB1A3F806200A4A1FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32D6DDFC1A3F806200A4A1FA /* Build configuration list for PBXNativeTarget "Tres en rayaTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +430,7 @@
 				32D6DDFE1A3F806200A4A1FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
